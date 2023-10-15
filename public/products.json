@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/QMX3PLh/sho2.png",
+        "brand": "Nike",
+        "product_name": "Air Max Sneakers",
+        "price": 199,
+        "productStatus": "New"
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/1LwbLsz/shoe1.png",
+        "brand": "Adidas",
+        "product_name": "Ultraboost Shoes",
+        "price": 159,
+        "productStatus": "Offer"
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/1bbk4dC/shoe3.png",
+        "brand": "Puma",
+        "product_name": "Running Sneakers",
+        "price": 129,
+        "productStatus": "Sele"
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/1LwbLsz/shoe1.png",
+        "brand": "Reebok",
+        "product_name": "Classic Leather Shoes",
+        "price": 99,
+        "productStatus": "New"
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/QMX3PLh/sho2.png",
+        "brand": "New Balance",
+        "product_name": "Fresh Foam Sneakers",
+        "price": 139,
+        "productStatus": "Offer"
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/1bbk4dC/shoe3.png",
+        "brand": "Under Armour",
+        "product_name": "Training Shoes",
+        "price": 149,
+        "productStatus": "Sele"
+    },
+    {
+        "id": 7,
+        "image": "https://i.ibb.co/QMX3PLh/sho2.png",
+        "brand": "ASICS",
+        "product_name": "Gel Nimbus Running Shoes",
+        "price": 179,
+        "productStatus": "New"
+    },
+    {
+        "id": 8,
+        "image": "https://i.ibb.co/1LwbLsz/shoe1.png",
+        "brand": "Skechers",
+        "product_name": "Memory Foam Sneakers",
+        "price": 89,
+        "productStatus": "Offer"
+    },
+    {
+        "id": 9,
+        "image": "https://i.ibb.co/1bbk4dC/shoe3.png",
+        "brand": "Converse",
+        "product_name": "Chuck Taylor All Star",
+        "price": 79,
+        "productStatus": "Sele"
+    },
+    {
+        "id": 10,
+        "image": "https://i.ibb.co/QMX3PLh/sho2.png",
+        "brand": "Vans",
+        "product_name": "Old Skool Sneakers",
+        "price": 69,
+        "productStatus": "New"
+    }
+]

@@ -56,7 +56,7 @@ const Nav = () => {
             <span className="">
               <FavoriteBorderOutlinedIcon />
             </span>
-            <div className="absolute inline-flex items-center justify-center w-6 p-1 h-6 text-base text-white bg-red-500 z-20 border-2 border-white rounded-full md:top-1 -top-6 -right-6 md:-right-1">
+            <div className="absolute inline-flex items-center justify-center w-6 p-1 h-6 text-base text-white bg-gray-800 z-20 border-2 border-white rounded-full md:top-1 -top-3 -right-3 md:-right-1">
               <span className="">2</span>
             </div>
           </NavLink>
@@ -72,7 +72,7 @@ const Nav = () => {
             <span className="">
               <LocalGroceryStoreOutlinedIcon />
             </span>
-            <div className="absolute inline-flex items-center justify-center w-6 p-1 h-6 text-base text-white bg-red-500 z-20 border-2 border-white rounded-full md:top-1 -top-6 -right-6 md:-right-1 ">
+            <div className="absolute inline-flex items-center justify-center w-6 p-1 h-6 text-base text-white bg-gray-800 z-20 border-2 border-white rounded-full md:top-1  top-1 right-0 md:-right-1 ">
               <span className="">2</span>
             </div>
           </NavLink>

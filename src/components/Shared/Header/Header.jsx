@@ -8,7 +8,7 @@ const Header = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
-      const scrollThreshold = 100;
+      const scrollThreshold = 90;
       setIsNavFixed(scrollY > scrollThreshold);
     };
 
@@ -26,12 +26,12 @@ const Header = () => {
   };
 
   return (
-    <div className="w-full">
+    <div className="w-full z-50">
       {isNavFixed ? <div className="h-20 w-full" /> : <TopBar />}
       <div
         style={navStyle}
         className={`text-black left-0  right-0 h-20 w-full drop-shadow-xl shadow-md items-center z-40 grid ${
-          isNavFixed ? "bg-[#ffffff]" : "bg-transparent"
+          isNavFixed ? "bg-[#ffffff]" : "bg-transparent backdrop-blur-sm"
         }`}
       >
         <Nav />
