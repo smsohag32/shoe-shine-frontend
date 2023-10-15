@@ -5,7 +5,7 @@ const ProductCard = ({ item }) => {
   return (
     <div>
       <div className="w-full bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-        <a href="#">
+        <div className="w-full">
           <img
             src={item?.image}
             alt="Product"
@@ -38,7 +38,7 @@ const ProductCard = ({ item }) => {
               {item?.productStatus}
             </span>
           </div>
-        </a>
+        </div>
       </div>
     </div>
   );

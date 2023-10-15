@@ -6,6 +6,7 @@ import "./Slider.css";
 // import required modules
 import { Scrollbar } from "swiper/modules";
 import heroData from "../../utils/heroData";
+import { Zoom } from "react-reveal";
 
 const HeroSlide = () => {
   return (
@@ -21,7 +22,9 @@ const HeroSlide = () => {
           <SwiperSlide key={index}>
             <div className="flex my-container items-center flex-col md:flex-row-reverse ">
               <div className="w-full">
-                <img src={item.image} alt="" />
+                <Zoom bottom>
+                  <img src={item.image} alt="" />
+                </Zoom>
               </div>
               <div className="w-full h-full">
                 <h1 className="text-4xl md:text-6xl font-bold">{item.title}</h1>
